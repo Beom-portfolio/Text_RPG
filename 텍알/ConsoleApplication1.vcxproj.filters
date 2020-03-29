@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{29d75cb6-bb62-44c8-b021-9013b9142861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Client">
+      <UniqueIdentifier>{ffb0a474-0479-460e-8014-8db10b1e8e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{22fe2de3-bc24-4825-a7ca-8fb784936a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Player">
+      <UniqueIdentifier>{d551c917-73e6-46e0-9579-d1b77428eb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster">
+      <UniqueIdentifier>{6f875088-2f93-486e-a819-655968d7a950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Item">
+      <UniqueIdentifier>{9b09636d-ddd1-4aaa-83a5-ea3600e1438d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Stage">
+      <UniqueIdentifier>{968317b2-2532-4363-91f1-979f4af12e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Shop">
+      <UniqueIdentifier>{f84988b7-ae23-42ec-8bac-68e4f977f66f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="ToDo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Client</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Client</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>99.Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.GameObject\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>03.Shop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>99.Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.GameObject\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>03.Shop</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
